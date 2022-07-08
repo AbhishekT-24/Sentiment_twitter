@@ -34,7 +34,7 @@ for all the candidates, for ease of analysis. The following steps are taken:
    in this case, the names of the candidates are removed from the tweets, because they will not add any meaning to the analysis
 <br/>
 <br/>
-3. **Sentiment Analysis-**  To analyse the tweets, we use
+3. **Sentiment Analysis-** To analyse the tweets, we use
 the hugging face's BERT model to "score" the tweets on a scale of 1 to 5,
 where 1 = very negative and 5 = very positive. The reason to use
 the Bert model is because the model can take many languages and the sentiments can
